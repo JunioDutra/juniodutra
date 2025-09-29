@@ -1,4 +1,4 @@
-baseURL = 'https://juniodutra.github.io/'
+baseURL = 'https://blog.dblsoft.xyz/'
 languageCode = 'en-us'
 title = 'Junio Dutra'
 theme = 'ananke'
