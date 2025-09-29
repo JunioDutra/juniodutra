@@ -1,0 +1,4 @@
+baseURL = 'https://juniodutra.github.io/'
+languageCode = 'en-us'
+title = 'Junio Dutra'
+theme = 'ananke'
