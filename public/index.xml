@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Junio Dutra</title>
-    <link>https://juniodutra.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Junio Dutra</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
-    <atom:link href="https://juniodutra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 23:12:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Região do Porto Seguro II em Sidrolândia Vai Ganhar 400 Casas do Minha Casa Minha Vida</title>
+      <link>http://localhost:1313/posts/sidrolandia-minha-casa-minha-vida/</link>
+      <pubDate>Thu, 16 Oct 2025 23:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sidrolandia-minha-casa-minha-vida/</guid>
+      <description>&lt;h2 id=&#34;novo-empreendimento-habitacional-em-sidrolândia&#34;&gt;Novo Empreendimento Habitacional em Sidrolândia&lt;/h2&gt;&#xA;&lt;p&gt;A região do Porto Seguro II em Sidrolândia, Mato Grosso do Sul, está prestes a receber um importante empreendimento habitacional que vai transformar a vida de centenas de famílias. Segundo informações divulgadas pela &lt;a href=&#34;https://www.regiaonews.com.br/sidrolandia-ms/regiao-do-porto-seguro-ii-vai-ganhar-400-casas-do-minha-casa-minha-vida&#34;&gt;Região News&lt;/a&gt;, a área receberá 400 novas casas do programa Minha Casa Minha Vida.&lt;/p&gt;&#xA;&lt;h2 id=&#34;o-programa-minha-casa-minha-vida&#34;&gt;O Programa Minha Casa Minha Vida&lt;/h2&gt;&#xA;&lt;p&gt;O Minha Casa Minha Vida é um dos principais programas habitacionais do governo federal brasileiro, criado com o objetivo de facilitar o acesso à moradia para famílias de baixa renda. O programa oferece condições especiais de financiamento e subsídios, permitindo que milhares de brasileiros realizem o sonho da casa própria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exploring Homepage: A Modern Dashboard for Your Homelab</title>
+      <link>http://localhost:1313/posts/exploring-homepage/</link>
+      <pubDate>Tue, 14 Oct 2025 15:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/exploring-homepage/</guid>
+      <description>&lt;h2 id=&#34;what-is-homepage&#34;&gt;What is Homepage?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gethomepage.dev/&#34;&gt;Homepage&lt;/a&gt; is a modern, fully static, fast, secure, and highly customizable application dashboard. It&amp;rsquo;s designed to be the perfect starting point for your server or homelab environment, providing a centralized view of all your services and applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;beautiful-and-modern-interface&#34;&gt;Beautiful and Modern Interface&lt;/h3&gt;&#xA;&lt;p&gt;Homepage offers a sleek, responsive design that looks great on any device. The interface is clean and intuitive, making it easy to navigate through your various services and applications.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>https://juniodutra.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>https://juniodutra.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>
