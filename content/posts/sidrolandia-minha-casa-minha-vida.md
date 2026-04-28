@@ -2,6 +2,7 @@
 title = 'Região do Porto Seguro II em Sidrolândia Vai Ganhar 400 Casas do Minha Casa Minha Vida'
 date = 2025-10-16T23:12:00+00:00
 draft = false
+aliases = ['/posts/sidrolandia-minha-casa-minha-vida/']
 +++
 
 ## Novo Empreendimento Habitacional em Sidrolândia

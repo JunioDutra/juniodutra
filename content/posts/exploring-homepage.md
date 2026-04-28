@@ -2,6 +2,7 @@
 title = 'Exploring Homepage: A Modern Dashboard for Your Homelab'
 date = 2025-10-14T15:05:00+00:00
 draft = false
+aliases = ['/posts/exploring-homepage/']
 +++
 
 ## What is Homepage?

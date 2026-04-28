@@ -1,7 +1,13 @@
-baseURL = 'https://blog.dblsoft.xyz/'
-languageCode = 'en-us'
-title = 'Junio Dutra'
+baseURL = 'https://me.dblsoft.xyz/'
+languageCode = 'pt-BR'
+title = 'Mauricio Junio'
 theme = 'ananke'
+
+[permalinks]
+  [permalinks.page]
+    posts = '/blog/:slugorcontentbasename/'
+  [permalinks.section]
+    posts = '/blog/'
 
 [caches]
   [caches.images]
