@@ -1,0 +1,13 @@
+{{ with partials.Include "func/style/GetMainCSS.html" . }}
+  {{ $style := . }}
+  {{ if not hugo.IsProduction }}
+    {{ $style = $style | resources.Fingerprint }}
+  {{ end }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" >
+{{ end }}
+
+{{ range site.Params.custom_css }}
+  {{ with partials.IncludeCached "func/style/GetResource.html" . . }}{{ else }}
+    <link rel="stylesheet" href="{{ urls.RelURL (.) }}">
+  {{ end }}
+{{ end }}

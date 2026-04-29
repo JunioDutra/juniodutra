@@ -1,6 +1,6 @@
 +++
 title = 'Blog'
 linkTitle = 'Blog'
-description = 'Artigos e notas publicados com Hugo.'
+description = 'Notes, articles, and writing published with Hugo.'
 aliases = ['/posts/']
 +++

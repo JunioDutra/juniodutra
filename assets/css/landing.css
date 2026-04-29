@@ -410,10 +410,29 @@ section {
   gap: 2px;
 }
 
+.projects-group {
+  margin: 24px 0 18px;
+}
+
+.projects-subheading {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .project-card {
   padding: 36px;
   text-decoration: none;
   display: block;
+}
+
+.static-card {
+  cursor: default;
+}
+
+.static-card::after {
+  content: none;
 }
 
 .project-card::after {

@@ -7,12 +7,12 @@
   {{ $styles = $styles | resources.Minify | resources.Fingerprint }}
 {{ end }}
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mauricio Junio · Dev</title>
-  <meta name="description" content="Página pessoal de Mauricio Junio com portfolio, links profissionais e acesso ao blog em Hugo.">
+  <title>Mauricio Junio · Specialist Software Engineer</title>
+  <meta name="description" content="Mauricio Junio is a Specialist Software Engineer with 10+ years of experience across backend systems, fintech, financial software, and selected independent projects.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -21,34 +21,34 @@
   {{ end }}
 </head>
 <body>
-  <nav aria-label="Navegação principal">
+  <nav aria-label="Main navigation">
     <a href="{{ "/" | relURL }}" class="nav-logo">MJ<span class="cursor"></span></a>
     <ul class="nav-links">
-      <li><a href="#about">Sobre</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#stack">Stack</a></li>
-      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#projects">Work</a></li>
       <li><a href="{{ $blogURL }}">Blog</a></li>
-      <li><a href="#contact">Contato</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <section id="hero">
-    <p class="hero-tag">// specialist software engineer · Curitiba, PR · remoto</p>
+    <p class="hero-tag">// specialist software engineer · Curitiba, Brazil · remote</p>
     <h1 class="hero-name">
       Mauricio<br><em>Junio.</em>
     </h1>
     <p class="hero-subtitle">
-      Desenvolvedor sênior com mais de 10 anos de experiência em Java e Node.js, de sistemas financeiros a fintechs. Atualmente na <strong style="color: var(--text)">Nomad</strong>, trabalhando remotamente de Curitiba.
+      Specialist Software Engineer with 10+ years of experience across Java and Node.js, from financial systems to fintech products. Currently at <strong style="color: var(--text)">Nomad</strong>, working remotely from Curitiba, Brazil.
     </p>
     <div class="hero-meta">
       <div class="meta-item">
-        <span class="meta-label">Empresa</span>
+        <span class="meta-label">Company</span>
         <span class="meta-value">Nomad</span>
       </div>
       <div class="meta-divider"></div>
       <div class="meta-item">
-        <span class="meta-label">Localização</span>
-        <span class="meta-value">WFH · Curitiba, PR</span>
+        <span class="meta-label">Location</span>
+        <span class="meta-value">Remote · Curitiba, Brazil</span>
       </div>
       <div class="meta-divider"></div>
       <div class="meta-item">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="hero-cta">
-      <a href="{{ $blogURL }}" class="btn btn-primary">Ver Blog</a>
+      <a href="#projects" class="btn btn-primary">Selected Work</a>
       <a href="https://www.linkedin.com/in/mauricio-junio-1638ab70/" target="_blank" rel="noreferrer" class="btn btn-ghost">LinkedIn</a>
     </div>
     <div class="hero-scroll" aria-hidden="true">
@@ -70,23 +70,23 @@
     <div class="section-eyebrow">
       <span class="eyebrow-num">01</span>
       <span class="eyebrow-line"></span>
-      <span class="eyebrow-label">Sobre mim</span>
+      <span class="eyebrow-label">About</span>
     </div>
     <div class="about-grid">
       <div class="reveal">
         <h2 class="about-heading">
-          Código<br>como<br><em>artesanato.</em>
+          Software<br>with<br><em>craft.</em>
         </h2>
       </div>
       <div class="about-body reveal">
         <p class="about-p">
-          Olá. Sou o Junio, Specialist Software Engineer com mais de 10 anos de experiência, hoje na Nomad. Passei por empresas como Olist, Grupo GFT, CINQ Technologies e Cortex Intelligence, acumulando vivência em sistemas financeiros, e-commerce, fintechs e backend de alta escala.
+          I am Mauricio Junio, a Specialist Software Engineer with more than a decade building backend systems across fintech, financial software, e-commerce, and data-heavy products. Today I work at Nomad, focusing on services and integrations where reliability matters as much as delivery speed.
         </p>
         <p class="about-p">
-          Minha base é Java, desde os primeiros passos como júnior até projetos sênior, com adição de Node.js nos anos mais recentes. Fora do trabalho, exploro hardware embarcado, ARM Linux, jogos 2D e ferramentas open source.
+          Craft, to me, means clear systems, maintainable code, and sound technical judgment over time. Java has been the backbone of my career, Node.js became central in recent years, and outside work I keep exploring Linux, embedded hardware, and small game development experiments.
         </p>
         <blockquote class="about-highlight">
-          Mais de uma década construindo software que importa, do backend ao sistema financeiro.
+          More than a decade building software that has to matter, last, and scale.
         </blockquote>
       </div>
     </div>
@@ -96,32 +96,32 @@
     <div class="section-eyebrow">
       <span class="eyebrow-num">02</span>
       <span class="eyebrow-line"></span>
-      <span class="eyebrow-label">Stack técnica</span>
+      <span class="eyebrow-label">Technical stack</span>
     </div>
     <div class="stack-grid">
       <div class="stack-item reveal">
         <div class="stack-lang">Java</div>
-        <div class="stack-desc">Linguagem principal · +10 anos · sistemas financeiros, fiscais e e-commerce em produção</div>
+        <div class="stack-desc">Primary language · 10+ years · production systems across finance, commerce, and backend services</div>
       </div>
       <div class="stack-item reveal">
         <div class="stack-lang">Node.js</div>
-        <div class="stack-desc">Stack atual na Nomad · APIs, serviços e integrações em ambiente fintech</div>
+        <div class="stack-desc">Current stack at Nomad · APIs, services, and integrations in a fintech environment</div>
       </div>
       <div class="stack-item reveal">
         <div class="stack-lang">Python</div>
-        <div class="stack-desc">Pipelines de dados · processamento de CNPJ em produção · automações e scripts</div>
+        <div class="stack-desc">Data processing, production pipelines, automation, and pragmatic tooling</div>
       </div>
       <div class="stack-item reveal">
         <div class="stack-lang">React</div>
-        <div class="stack-desc">Next.js · templates de home e blog · componentes modernos e responsivos</div>
+        <div class="stack-desc">Frontend prototypes, landing pages, and modern UI work when the product needs it</div>
       </div>
       <div class="stack-item reveal">
         <div class="stack-lang">Shell</div>
-        <div class="stack-desc">Linux · BananaPi M5 · ARM · automação de ambiente e configuração de sistemas</div>
+        <div class="stack-desc">Linux environments, ARM hardware, automation, and infrastructure-oriented workflows</div>
       </div>
       <div class="stack-item reveal">
-        <div class="stack-lang">+10 anos</div>
-        <div class="stack-desc">Olist · Grupo GFT · CINQ · Cortex · Indra · TEMA · Fiscaltech · Nomad</div>
+        <div class="stack-lang">Domains</div>
+        <div class="stack-desc">Fintech · financial systems · e-commerce · data products · integration-heavy backends</div>
       </div>
     </div>
   </section>
@@ -130,42 +130,60 @@
     <div class="section-eyebrow">
       <span class="eyebrow-num">03</span>
       <span class="eyebrow-line"></span>
-      <span class="eyebrow-label">Projetos em destaque</span>
+      <span class="eyebrow-label">Selected work</span>
     </div>
     <div class="projects-header">
-      <h2 class="projects-heading reveal">Coisas que<br><em>construí.</em></h2>
-      <span class="projects-count reveal">27 repositórios · 2 contas</span>
+      <h2 class="projects-heading reveal">Independent and<br><em>company work.</em></h2>
+      <span class="projects-count reveal">Curated projects · company highlights</span>
+    </div>
+    <div class="projects-group reveal">
+      <h3 class="projects-subheading">Company highlights</h3>
+    </div>
+    <div class="projects-grid company-grid">
+      <div class="project-card static-card reveal">
+        <span class="project-lang">Fintech</span>
+        <h3 class="project-title">Nomad</h3>
+        <p class="project-desc">Backend services, integrations, and product-facing engineering in a remote specialist role.</p>
+      </div>
+      <div class="project-card static-card reveal">
+        <span class="project-lang">Commerce</span>
+        <h3 class="project-title">Olist</h3>
+        <p class="project-desc">Work around commerce operations, platform flows, and business-critical backend concerns.</p>
+      </div>
+      <div class="project-card static-card reveal">
+        <span class="project-lang">Finance</span>
+        <h3 class="project-title">GFT + CINQ</h3>
+        <p class="project-desc">Enterprise delivery across financial systems, integrations, and long-lived production software.</p>
+      </div>
+      <div class="project-card static-card reveal">
+        <span class="project-lang">Data</span>
+        <h3 class="project-title">Cortex Intelligence</h3>
+        <p class="project-desc">Backend and product work closer to data-heavy systems and intelligence-oriented workflows.</p>
+      </div>
+    </div>
+    <div class="projects-group reveal">
+      <h3 class="projects-subheading">Independent projects</h3>
     </div>
     <div class="projects-grid">
       <a href="https://github.com/JunioDutra/java_from_zero" target="_blank" rel="noreferrer" class="project-card reveal">
         <span class="project-lang">Java</span>
         <h3 class="project-title">java_from_zero</h3>
-        <p class="project-desc">Guia de Java do zero com uma trilha de estudo estruturada, exemplos práticos e progressivos.</p>
+        <p class="project-desc">A structured Java learning path built from the ground up with practical, progressive examples.</p>
       </a>
       <a href="https://github.com/JunioDutra/cnpj-data-productive" target="_blank" rel="noreferrer" class="project-card reveal">
         <span class="project-lang">Python</span>
         <h3 class="project-title">cnpj-data-productive</h3>
-        <p class="project-desc">Pipeline de dados para processar informações de CNPJ em ambiente produtivo com Python.</p>
-      </a>
-      <a href="https://github.com/juniodbl/home-template" target="_blank" rel="noreferrer" class="project-card reveal">
-        <span class="project-lang">React · Next.js</span>
-        <h3 class="project-title">home-template</h3>
-        <p class="project-desc">Template de homepage moderno construído com React e Next.js, pronto para adaptação.</p>
-      </a>
-      <a href="https://github.com/juniodbl/Simple-Java2D-with-tmxMaps" target="_blank" rel="noreferrer" class="project-card reveal">
-        <span class="project-lang">Java</span>
-        <h3 class="project-title">Simple Java2D + TMX</h3>
-        <p class="project-desc">Motor simples de jogo 2D em Java com suporte a mapas TMX para estudo de game dev.</p>
-      </a>
-      <a href="https://github.com/JunioDutra/discord-bot-csgo-audio-funny" target="_blank" rel="noreferrer" class="project-card reveal">
-        <span class="project-lang">JavaScript</span>
-        <h3 class="project-title">Discord Bot · CS:GO Audio</h3>
-        <p class="project-desc">Bot para Discord com áudios temáticos de CS para um projeto leve e divertido.</p>
+        <p class="project-desc">A production-oriented pipeline for processing Brazilian company data with a practical Python stack.</p>
       </a>
       <a href="https://github.com/JunioDutra/simple-openid-client" target="_blank" rel="noreferrer" class="project-card reveal">
         <span class="project-lang">JavaScript</span>
         <h3 class="project-title">simple-openid-client</h3>
-        <p class="project-desc">Cliente OpenID simples e direto para autenticação moderna sem complexidade desnecessária.</p>
+        <p class="project-desc">A lightweight OpenID client focused on straightforward authentication flows without unnecessary overhead.</p>
+      </a>
+      <a href="https://github.com/juniodbl/Simple-Java2D-with-tmxMaps" target="_blank" rel="noreferrer" class="project-card reveal">
+        <span class="project-lang">Java</span>
+        <h3 class="project-title">Simple Java2D + TMX</h3>
+        <p class="project-desc">A lightweight 2D game foundation in Java with TMX map support for learning and experimentation.</p>
       </a>
     </div>
   </section>
@@ -174,12 +192,11 @@
     <div class="section-eyebrow" style="justify-content: center;">
       <span class="eyebrow-num">04</span>
       <span class="eyebrow-line"></span>
-      <span class="eyebrow-label">Contato</span>
+      <span class="eyebrow-label">Contact</span>
     </div>
     <h2 class="contact-heading reveal">
-      Vamos<br><em>conversar?</em>
+      Let's<br><em>talk.</em>
     </h2>
-    <p class="contact-sub reveal">Aberto a oportunidades, colaborações e papos sobre tecnologia.</p>
     <div class="contact-links reveal">
       <a href="https://www.linkedin.com/in/mauricio-junio-1638ab70/" target="_blank" rel="noreferrer" class="btn btn-primary">LinkedIn</a>
       <a href="https://github.com/juniodbl" target="_blank" rel="noreferrer" class="btn btn-ghost">GitHub · juniodbl</a>
@@ -189,7 +206,7 @@
   </section>
 
   <footer>
-    <span class="footer-copy">© {{ now.Year }} Mauricio Junio · Feito com propósito.</span>
+    <span class="footer-copy">© {{ now.Year }} Mauricio Junio · Built with purpose.</span>
     <div class="footer-links">
       <a href="{{ $blogURL }}">Blog</a>
       <a href="https://github.com/juniodbl" target="_blank" rel="noreferrer">GitHub</a>

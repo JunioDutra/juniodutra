@@ -7,8 +7,7 @@ This repository is a small Hugo blog that uses the Ananke theme as a git submodu
 - Site config: [hugo.toml](hugo.toml)
 - Post template: [archetypes/default.md](archetypes/default.md)
 - Published content: [content/posts/](content/posts/)
-- Theme override entry point: [layouts/partials/head-additions.html](layouts/partials/head-additions.html)
-- Custom site styling: [assets/css/custom.css](assets/css/custom.css)
+- Homepage styling: [assets/css/landing.css](assets/css/landing.css)
 - CI build reference: [.github/workflows/hugo.yaml](.github/workflows/hugo.yaml)
 
 ## Working Rules
@@ -29,6 +28,7 @@ This repository is a small Hugo blog that uses the Ananke theme as a git submodu
 ## Change Guidance
 
 - Content updates usually belong in [content/posts/](content/posts/).
-- Global style changes usually belong in [assets/css/custom.css](assets/css/custom.css); [layouts/partials/head-additions.html](layouts/partials/head-additions.html) already loads and minifies that stylesheet.
+- Homepage style changes usually belong in [assets/css/landing.css](assets/css/landing.css).
+- Blog styling currently falls back to the default Ananke theme unless the task explicitly reintroduces local theme overrides.
 - Site metadata and theme selection belong in [hugo.toml](hugo.toml).
 - Clone or update the repository with submodules enabled so [themes/ananke/](themes/ananke/) is present.

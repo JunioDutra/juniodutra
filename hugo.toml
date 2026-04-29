@@ -1,5 +1,5 @@
 baseURL = 'https://me.dblsoft.xyz/'
-languageCode = 'pt-BR'
+languageCode = 'en-us'
 title = 'Mauricio Junio'
 theme = 'ananke'
 
